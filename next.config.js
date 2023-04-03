@@ -8,6 +8,9 @@ const nextConfig = {
     defaultLocale: 'lv',
     localeDetection: false,
   },
+  images: {
+    domains: ['cdn.sanity.io'],
+  },
 };
 
 module.exports = nextConfig;

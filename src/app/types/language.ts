@@ -5,3 +5,7 @@ export type Languages = {
 };
 
 export type Language = typeof languages[number];
+
+export type LocaleString = {
+  _type: 'localeString';
+} & Languages;
